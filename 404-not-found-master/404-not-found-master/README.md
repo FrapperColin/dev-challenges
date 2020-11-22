@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](Screenshot_2020-11-22_404_NOT_FOUND.png)
+![screenshot](img/Screenshot_2020-11-22_404_NOT_FOUND.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
