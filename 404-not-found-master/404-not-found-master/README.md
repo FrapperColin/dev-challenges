@@ -46,7 +46,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
   </a>
 - What was your experience?
 - What have you learned/improved?
-  Discovered responsive vh / vw and media queries
+  Discovered responsive vh / vw and media queries / figma
 - Your wisdom? :)
 
 ### Built With

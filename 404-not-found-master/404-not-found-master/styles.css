@@ -4,20 +4,26 @@
   box-sizing: border-box;
 }
 
+:root {
+    --black: #333333;
+    --white: #ffffff
+}
+
 html {
      height: 100%;
      width: 100%;
-     background: #333333;
+     background: var(--black);
 }
 
 body {
     box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    background: #ffffff;
+    background: var(--white);
     display: grid;
     min-height: 100%;
     margin: 0;
     padding: 0;
+    
     grid-template-rows: auto 1fr auto;
     grid-template-areas: 
         'header'
@@ -41,14 +47,13 @@ header {
     line-height: 25px;
     letter-spacing: -0.08em;
     text-transform: uppercase;
-    color: #333333;
+    color: var(--black);
 }
 
 main {
     margin-left: 77px;
     margin-right: 119px;
     grid-area: main;
-
 
     display: flex;
     flex-direction: row;
@@ -59,14 +64,13 @@ footer {
     display: flex;
     justify-content: center;
 
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */        
-    color: #333333;
+    /* identical to box height */
+    color: var(--black);
 
     margin-bottom: 30px;
     grid-area: footer;
@@ -105,7 +109,7 @@ footer {
     line-height: 95px;
     letter-spacing: -0.035em;
     /* Gray 1 */
-    color: #333333;
+    color: var(--black);
     width: 586px;
     margin-bottom: 36px;
 }
@@ -127,8 +131,8 @@ footer {
     width: 216px;
     height: 68px;
     /* Gray 1 */
-    background: #333333;
-    color: #ffffff;
+    background: var(--black);
+    color: var(--white);
 }
 
 /* mobile view */
@@ -153,7 +157,6 @@ footer {
         font-size: 48px;
         line-height: 71px;
         letter-spacing: -0.035em;
-        /* Gray 1 */
         width: 350px;
         margin-bottom: 29px;
     }
@@ -162,7 +165,6 @@ footer {
         font-size: 18px;
         line-height: 27px;
         letter-spacing: -0.035em;
-        /* Gray 1 */
         width: 328px;
         margin-bottom: 67px;
     }
