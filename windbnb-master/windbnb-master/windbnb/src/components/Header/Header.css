@@ -1,0 +1,31 @@
+.classic {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.expanded {
+    padding: 0;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+
+.expanded-drop {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 450px;
+    background: aqua;
+    transition: 0.4s;
+    transform: translateY(-100%);
+}
+.logo {
+    /* align-self: flex-start; */
+}
+
+.search-stay {
+    /* align-self: flex-end; */
+}
