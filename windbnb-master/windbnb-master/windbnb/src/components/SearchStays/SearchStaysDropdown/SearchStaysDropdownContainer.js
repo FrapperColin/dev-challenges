@@ -9,7 +9,9 @@ const SearchStaysDropdownContainer = props => {
     const [expandedDropdown, setExpandedDropdown] = useState(choosenDropdown)
     
     return (
-        <SearchStaysContainer expandDropdown={setExpandedDropdown} isExpanded={true}/>
+        <div className="search-stays-dropdown">
+            <SearchStaysContainer expandDropdown={setExpandedDropdown} isExpanded={true}/>
+        </div>
     );
 };
 
