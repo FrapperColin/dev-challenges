@@ -14,12 +14,10 @@
     position: absolute;
     left: 0;
     right: 0;
+    height: 460px;
 }
 
-.logo {
-    /* align-self: flex-start; */
-}
 
-.search-stay {
-    /* align-self: flex-end; */
+.logo-expanded {
+    visibility: hidden;
 }
